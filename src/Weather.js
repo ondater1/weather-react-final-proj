@@ -7,24 +7,28 @@ export default function Weather (){
             <form>
                 <div className="row">
                     <div className="col-9">
-                        <input type="search" placeholder="Enter a city" className="form-control"/>
+                        <input type="search" placeholder="Enter a city" className="form-control" autoFocus="on"/>
                     </div>
                     <div className="col-3">
-                        <input type="submit" value="Search" className="btn btn-primary"/>
+                        <input type="submit" value="Search" className="btn btn-primary w-100"/>
                     </div>
                 </div>
             </form>
-    <h1>Lisbon</h1>
-    <ul>
-        <li>Wednesday, May 5, 21:56</li>
-        <li>Mostly Cloudy</li>
-    </ul>
+    <h2>Lisbon</h2>
+    
     <div className="row">
-        <div className="col-6">
-            <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" alt="Partly Cloudy"></img>
-        12°C|F
+        <div className="col-4">
+        <ul>
+            <li>Mostly Cloudy</li>
+         </ul>
+            <div className="clearfix mt-3">
+                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" alt="Partly Cloudy" className="float-left weather-icon"/>
+                    <div className="float-left">
+                        <span className="temperature">12</span><span className="units">°C|F</span>
+                    </div>
+            </div>
         </div>
-        <div className="col-6">
+        <div className="col-4">
             <ul>
                 <li>
                     Precipitation: 15%
@@ -37,7 +41,10 @@ export default function Weather (){
                 </li>
             </ul>
         </div>
-
+        <div className="col-4">
+            <img src="https://media.giphy.com/media/7PK51oAq6EcUnrQYmW/giphy.gif" alt="breathing" className="breathe"/>
+        </div>
+        
     </div>
 </div>
     )

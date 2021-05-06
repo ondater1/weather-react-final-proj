@@ -1,0 +1,11 @@
+.App {
+  font-family: 'Amatic SC';
+  margin: 10px auto;
+  max-width: 600px;
+}
+.App h1, p {
+text-align: center;
+}
+.App footer {
+  font-size: 14px;
+}
