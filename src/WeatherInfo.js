@@ -12,9 +12,7 @@ export default function WeatherInfo (props) {
                     <li className="text-capitalize">{props.info.description}</li>
                 </ul>
                     <div className="clearfix mt-3">
-                        <div >
                             <img src={props.info.iconUrl} alt="icon" className="float-left weather-icon"/>
-                        </div>
                             <div className="float-left">
                                 <span className="temperature">{Math.round(props.info.temp)}</span><span className="units">°C|F</span>
                             </div>
