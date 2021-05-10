@@ -19,13 +19,13 @@ function handleResponse (response) {
             humidity:response.data.main.humidity,
             city:response.data.name,
             description:response.data.weather[0].description,
-            iconUrl:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+            iconUrl:`https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
         });
 }
 
 function search () {
     const apiKey = "c44c1c027cb5aedabc3d66ae7a76ef48";
-    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
 }
 
