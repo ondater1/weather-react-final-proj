@@ -16,16 +16,14 @@
     line-height: 70px;
 }
 .Weather .temperature {
-    color:#79ADDC;
     font-weight: bold;
     font-size: 60px;
     line-height: 60px;
 }
 .Weather canvas {
     margin-right: 10px;
-    
 }
-.Weather .units {
+.Weather .unit {
     font-size: 32px;
     position: relative;
     top: -30px;
