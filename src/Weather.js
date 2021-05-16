@@ -13,7 +13,8 @@ function handleResponse (response) {
         console.log(response.data);
         setWeatherData({
             ready:true,
-            coordinates:response.data.coord,            date:new Date (response.data.dt * 1000),
+            coordinates:response.data.coord,            
+            date:new Date (response.data.dt * 1000),
             temp:response.data.main.temp,
             pressure:response.data.main.pressure,
             wind:response.data.wind.speed,
