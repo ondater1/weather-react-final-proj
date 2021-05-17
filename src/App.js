@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="Container">
       <h1>Calm Weather</h1>
-      <Weather defaultCity="London"/>
+      <Weather defaultCity="Prague"/>
       <footer>
       <a href = "https://github.com/ondater1/weather-react-final-proj" target = "_blank" rel="noreferrer">Open source</a> coded by <a href = "https://www.linkedin.com/in/alla-strakhova-aa01a98a/" target = "_blank" rel="noreferrer">Alla Strakhova</a>
       </footer>

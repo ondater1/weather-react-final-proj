@@ -24,7 +24,7 @@
     margin-right: 10px;
 }
 .Weather .unit {
-    font-size: 32px;
+    font-size: 28px;
     position: relative;
     top: -30px;
     margin-left: 4px;
@@ -45,4 +45,5 @@
     border-radius: 300px;
     width: 150px;
     max-width: 80%;
+    margin-bottom: 10px;
 }
